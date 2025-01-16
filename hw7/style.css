@@ -1,0 +1,149 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(70, 163, 88, 1);
+    padding: 2%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.nav-li a {
+    color: rgba(61, 61, 61, 1);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-li a:hover {
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.btn-cont {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.btn-set {
+    align-items: center;
+    
+}
+
+.button {
+    background-color: rgba(70, 163, 88, 1);
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.src-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border-bottom: 1px solid rgba(70, 163, 88, 1);
+}
+
+.src-bar {
+    display: flex;
+    gap: 3rem;
+}
+
+.src-li a {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(61, 61, 61, 1);
+}
+
+.src-li a:hover {
+    color: rgba(70, 163, 88, 1);
+    font-weight: 700;
+    border-bottom: 2px solid rgba(70, 163, 88, 1);
+    transition: color 0.5s ease-in-out;
+}
+
+.main {
+    display: flex;
+}
+
+.side-bar {
+    width: 600px;
+    height: 1000px;
+    background-color: rgba(251, 251, 251, 1);
+}
+
+.side-bar h1 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 3vh 0 2vh 3vh;
+}
+
+.side-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 0 0 5vh;
+}
+
+.side-li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(61, 61, 61, 1);
+}
+
+.side-li a:hover {
+    font-weight: 700;
+    color: rgba(70, 163, 88, 1);
+    transition: color 0.5s ease-in-out;
+}
+
+.product-wrap {
+    margin: 5vh 0 0 10vh;
+}
+
+.product-cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-li {
+    background-color: rgba(251, 251, 251, 1);
+    border-radius: 10px;
+}
+
+.scrl-num {
+    display: flex;
+    justify-content: right;
+    margin: 4rem 10rem;
+}
+
+.scrl-num-cont {
+    display: flex;
+    gap: 25px;
+}
+
+.scrl-num-li {
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    font-size: 300;
+    font-size: 18px;
+}
+
+.scrl-num-li:hover {
+    background-color: rgba(70, 163, 88, 1);
+    color: white;
+}
