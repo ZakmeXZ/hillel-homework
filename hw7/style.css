@@ -147,3 +147,25 @@
     background-color: rgba(70, 163, 88, 1);
     color: white;
 }
+
+.bottom-prod-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-prod-cont {
+    display: flex;
+    gap: 5rem;
+}
+
+.bottom-prod-li h1, p {
+    display: flex;
+    justify-content: right;
+}
+
+.bottom-prod-li-img {
+
+}
+
+.bottom-prod-li-txt {
+}
