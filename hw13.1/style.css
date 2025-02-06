@@ -1,0 +1,42 @@
+.checkbox-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.checkbox-wrap {
+    background-color: lightgray;
+    position: relative;
+    width: 125px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    top: 5px;
+    left: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+.checkbox:checked + .slider {
+    left: 80px;;
+}
+
+.checkbox-wrap:has(.checkbox:checked) {
+    background-color: aqua;
+}
